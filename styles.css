@@ -3,19 +3,19 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff; /* Light Sky Blue */
+    background-color: #a8d8e8; /* Sky Blue */
     color: #333;
 }
 
 header {
-    background-color: #1e90ff; /* Dodger Blue */
+    background-color: #4d90fe; /* Dodger Blue */
     padding: 20px;
     text-align: center;
     color: white;
 }
 
 nav {
-    background-color: #87ceeb; /* Sky Blue */
+    background-color: #64b5f6; /* Steel Blue */
     padding: 10px;
 }
 
@@ -46,7 +46,7 @@ img {
 }
 
 footer {
-    background-color: #1e90ff; /* Dodger Blue */
+    background-color: #4d90fe; /* Dodger Blue */
     padding: 10px;
     text-align: center;
     color: white;
