@@ -56,7 +56,7 @@ footer {
 /* Additional Styles for Destinations Section */
 #destinations {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
 }
 
@@ -73,7 +73,7 @@ footer {
 
 .destination img {
     width: 100%;
-    height: 200px; /* Set a fixed height for the images */
+    height: 150px; /* Set a fixed height for the images */
     object-fit: cover; /* Ensure images maintain their aspect ratio */
     border-radius: 5px;
 }
