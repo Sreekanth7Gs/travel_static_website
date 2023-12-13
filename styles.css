@@ -1,4 +1,5 @@
 /* styles.css */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -50,4 +51,29 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
+}
+
+/* Additional Styles for Destinations Section */
+#destinations {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.destination {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.destination p {
+    margin: 10px 0;
 }
