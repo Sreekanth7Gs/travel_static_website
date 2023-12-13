@@ -56,14 +56,14 @@ footer {
 /* Additional Styles for Destinations Section */
 #destinations {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
 }
 
 .destination {
     text-align: center;
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     display: flex;
@@ -73,11 +73,11 @@ footer {
 
 .destination img {
     width: 100%;
-    height: 150px; /* Set a fixed height for the images */
+    height: 100px; /* Set a fixed height for the images */
     object-fit: cover; /* Ensure images maintain their aspect ratio */
     border-radius: 5px;
 }
 
 .destination p {
-    margin: 10px 0;
+    margin: 5px 0;
 }
